@@ -106,7 +106,7 @@ padding-top: 2rem 0;
 }
 .skills-section ul li{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     padding: .4rem 0;
 }
 
@@ -126,6 +126,57 @@ padding-top: 2rem 0;
     border-radius: 12px;
 }
 
-.SQL-progreso{
+.SQL-progreso{ /* Barra de progreso*/
     width: 50%;
+}
+
+.excel-progreso{
+    width: 40%;
+}
+
+.tres-progreso{
+    width: 80% ;
+}
+
+.cuatro-progreso{
+    width: 20%;
+}
+
+.cinco-progreso{
+    width: 70%;
+}
+
+.skill-title{  /* color de letra/texto sobre barra */
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1rem;
+
+}
+
+.sub-title{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:#f7f7f7 ;
+}
+
+.sub-parrafo{
+    color: #f7f7f7;
+    padding: .4rem 0;
+
+}
+
+.referencias-section li{
+
+    color: #f7f7f7;
+    padding: .2rem 0;
+
+}
+
+.referencias-section li i{
+
+    padding-right: .5rem;
+    font-size: 1.2rem;
+    color: #027FA2;
+
 }
