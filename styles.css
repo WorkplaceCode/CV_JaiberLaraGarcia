@@ -180,3 +180,36 @@ padding-top: 2rem 0;
     color: #027FA2;
 
 }
+
+
+.raight-main-contenido{
+    padding: 2rem 3rem ;
+}
+
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2D9CDB;
+    margin-bottom: 1.2rem;
+    position: relative;
+
+}
+
+.right-title::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .3rem;
+    background-color: #2D9CDB;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.parrafo{
+    line-height: 1.6rem;
+    color: #718096 ;
+    font-size: 1.1rem;
+
+
+}
